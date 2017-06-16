@@ -1,0 +1,9 @@
+pipeline:
+  backend:
+    image: alpine
+    commands:
+      - echo 'This is the backend command'
+  frontend:
+    image: alpine
+    commands:
+      - echo 'This is the frontend command'
